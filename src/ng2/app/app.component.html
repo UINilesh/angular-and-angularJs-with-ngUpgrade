@@ -1,0 +1,35 @@
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="home">Home</a> 
+        </li>
+       <li class="nav-item">
+      <a class="nav-link" routerLink="formdetails">Form Details Angular</a> 
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="details">Details AngularJs</a>
+      </li>
+    </ul>
+   
+</nav>
+
+        </div>
+    </div>
+ </div>
+
+ 
+<!-- ng1 -->
+<div class="container">
+<div class="row">
+  <div class="col-md-12">
+     <div ng-view></div>
+    <router-outlet></router-outlet>
+
+  </div>
+</div>
+    
+</div>
+<!-- /ng1 -->
